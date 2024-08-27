@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "target": "ES2023",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["src/*"]
+    },
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "build"
+  },
+  "include": ["src/*"],
+  "exclude": ["src/*.test.ts"]
+}
